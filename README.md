@@ -37,13 +37,17 @@ Close # Close the spawned process if it still runs
 
 ## Install
 
+### As a module
+
+`Install-Module -Name Expect`
+
+or for your current user
+
+`Install-Module -Name Expect -Scope CurrentUser`
+
 ### Include in your profile or script
 
 Download or copy the [Expect.ps1](Expect.ps1) from the root of this repository and add it to your `Profile.ps1` or script.
-
-### As a module
-
-Clone the repository and `Import-Module $PathToPsm1File`
 
 ## Contributions
 
